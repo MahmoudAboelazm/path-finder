@@ -7,16 +7,18 @@
   top: 0px;
 }
 .App {
-  text-align: center;
+    text-align: center;
+    background: transparent;
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .main {
-  margin: auto;
-  margin-top: 70px;
-  max-width: 1055px;
-  box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
-  background: white;
-  padding: 5px;
+    margin: auto auto;
+    max-width: 1055px;
+    box-shadow: 0 3px 8px 0 rgb(15 15 20 / 20%);
+    background: #fff;
+    padding: 5px;
 }
 .row {
   display: flex;
